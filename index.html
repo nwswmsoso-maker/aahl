@@ -253,8 +253,8 @@
         /* Social Links */
         .social-links {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 20px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
             margin-top: 20px;
         }
 
@@ -283,6 +283,12 @@
         .social-link.tiktok {
             background: linear-gradient(135deg, #25f4ee, #ff0050);
             box-shadow: 0 12px 35px rgba(255, 0, 80, 0.5);
+        }
+
+        /* WhatsApp */
+        .social-link.whatsapp {
+            background: linear-gradient(135deg, #25d366, #20ba5d);
+            box-shadow: 0 12px 35px rgba(37, 211, 102, 0.5);
         }
 
         /* Instagram */
@@ -349,7 +355,9 @@
             }
 
             .brand h1 {
-                font-size: 40px;
+                font-size: 44px;
+                font-weight: 900;
+                letter-spacing: 1px;
             }
 
             .logo-icon {
@@ -357,12 +365,19 @@
             }
 
             .section p {
-                font-size: 17px;
+                font-size: 19px;
+                font-weight: 700;
             }
 
             .social-link {
                 padding: 28px 20px;
-                font-size: 15px;
+                font-size: 16px;
+                font-weight: 900;
+            }
+
+            .social-link-text {
+                font-size: 14px;
+                letter-spacing: 2px;
             }
 
             .social-link-icon {
@@ -377,7 +392,9 @@
             }
 
             .brand h1 {
-                font-size: 32px;
+                font-size: 36px;
+                font-weight: 900;
+                letter-spacing: 0.5px;
             }
 
             .logo-icon {
@@ -385,22 +402,30 @@
             }
 
             .section-title {
-                font-size: 12px;
-                letter-spacing: 2px;
+                font-size: 13px;
+                letter-spacing: 3px;
+                font-weight: 900;
             }
 
             .section p {
-                font-size: 16px;
-                line-height: 1.8;
+                font-size: 18px;
+                line-height: 1.9;
+                font-weight: 700;
             }
 
             .social-link {
                 padding: 25px 18px;
-                font-size: 14px;
+                font-size: 15px;
+                font-weight: 900;
             }
 
             .social-link-icon {
                 font-size: 28px;
+            }
+
+            .social-link-text {
+                font-size: 13px;
+                letter-spacing: 2px;
             }
 
             .social-links {
@@ -448,6 +473,10 @@
                     تابعنا
                 </div>
                 <div class="social-links">
+                    <a href="https://wa.me/9647827992601" class="social-link whatsapp" target="_blank" title="واتس اب">
+                        <i class="fab fa-whatsapp social-link-icon"></i>
+                        <span class="social-link-text">واتس اب</span>
+                    </a>
                     <a href="https://www.tiktok.com/@ad_ha30?_r=1&_t=ZS-96z8z9Hq99p" class="social-link tiktok" target="_blank" title="تيك توك">
                         <i class="fab fa-tiktok social-link-icon"></i>
                         <span class="social-link-text">تيك توك</span>
